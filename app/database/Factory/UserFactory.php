@@ -25,7 +25,7 @@ final class UserFactory extends AbstractFactory
     public function definition(): array
     {
         return [
-            'username' => $this->faker->userName,
+            'username' => $this->faker->userName(),
             'password' => \password_hash('secret', \PASSWORD_BCRYPT),
         ];
     }

@@ -24,7 +24,7 @@ final class ThreadFactory extends AbstractFactory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->sentence,
+            'name' => $this->faker->sentence(),
         ];
     }
 }
