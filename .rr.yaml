@@ -34,5 +34,5 @@ centrifuge:
   proxy_address: tcp://127.0.0.1:10001
   grpc_api_address: tcp://127.0.0.1:10000
   pool:
-    reset_timeout: 10
+    reset_timeout: 10s
     num_workers: 2
